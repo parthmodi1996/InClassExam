@@ -16,6 +16,11 @@ public abstract class Person implements iPersonRead, iPersonReadWrite {
 	private String phone_number;
 	private String email_address;
 
+	
+	public Date getDOB(){
+		return DOB;
+	}
+	
 	public String getFirstName() {
 		return FirstName;
 	}
@@ -24,9 +29,9 @@ public abstract class Person implements iPersonRead, iPersonReadWrite {
 		this.FirstName = FirstName;
 	}
 
-	public String getMiddleName() {
-		return MiddleName;
-	}
+//	public String getMiddleName() {
+//		return MiddleName;
+//	}
 
 	public void setMiddleName(String MiddleName) {
 		this.MiddleName = MiddleName;
@@ -38,10 +43,6 @@ public abstract class Person implements iPersonRead, iPersonReadWrite {
 
 	public void setLastName(String LastName) {
 		this.LastName = LastName;
-	}
-
-	public Date getDOB() {
-		return DOB;
 	}
 
 	public void setDOB(Date DOB) {

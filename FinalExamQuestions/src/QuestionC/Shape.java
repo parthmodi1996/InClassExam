@@ -67,5 +67,5 @@ abstract class Shape {
 	abstract void draw();
 	
 	
-	abstract public double ComputeArea() throws IllegalRectangle;
+	abstract public int ComputeArea() throws IllegalRectangle;
 }

@@ -11,8 +11,8 @@ public class Rectangle extends Shape {
 	}
 
 	@Override
-	public double ComputeArea() throws IllegalRectangle {
-		double answer;
+	public int ComputeArea() throws IllegalRectangle {
+		int answer;
 		int x = this.getX();
 		int y = this.getY();
 		if (this.getX() > 0 && this.getY() > 0){
@@ -25,6 +25,7 @@ public class Rectangle extends Shape {
 				y = (-1)*this.getY();
 			}
 			answer = x*y;
+			System.out.println("Rectangle cannor have negative values");
 			throw new IllegalRectangle(x, y);
 		}
 		return answer;

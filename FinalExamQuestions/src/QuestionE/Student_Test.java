@@ -43,9 +43,9 @@ public class Student_Test {
 		}
 		Student stu1 = new Student("Bert", "Randall", "Gibbons", dBirthDate, "214 Labrador Lane", "302-893-6889", "bgibbons@udel.edu","MIS");
 		Student stu2 = new Student("Modi", "fffac", "Parth", dBirthDate, "246 Labrador Lane", "642-456-3454", "parth@udel.edu", "ME");
-		Student stu3 = new Student("ssgg", "Santa", "Clause", dBirthDate, "246 Labrador Lane", "642-456-3454", "SClause@udel.edu", "SC");
-		Student stu4 = new Student("cbcb", "Santa", "Clause", dBirthDate, "246 Labrador Lane", "642-456-3454", "SClause@udel.edu", "SC");
-		Student stu5 = new Student("fddh", "Santa", "Clause", dBirthDate, "246 Labrador Lane", "642-456-3454", "SClause@udel.edu", "SC");
+		Student stu3 = new Student("Santa", " ", "Clause", dBirthDate, "101 North Pole", "999-999-9999", "SClause@udel.edu", "SC");
+		Student stu4 = new Student("Ryan", "Jeoffery", "Matthews", dBirthDate, "24 Go Eagles", "123-456-789", "eaglesAllDay@udel.edu", "EGS");
+		Student stu5 = new Student("fddh", "Santa", "Clause", dBirthDate, "876 Another Lane", "642-456-3454", "SClause@udel.edu", "SC");
 		
 		HashMap<UUID, Student> hm = new HashMap<UUID, Student>();
 		hm.put(stu1.getPersonID(), stu1);
